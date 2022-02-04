@@ -6,9 +6,9 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("반가워요");
+		System.out.println();
 		
-		int a; // 선업 대입(초기화)
+		int a; 
 		a=-1;
 		int b=2;
 		
