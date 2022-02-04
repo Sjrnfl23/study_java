@@ -14,7 +14,7 @@ public class Valueable {
 		System.out.println(roomNumber);
 		System.out.println(roomnumber);
 		
-		int a; //선언. 사용불가
+		int a=1; //선언. 사용불가
 		int b=1;
 		int c=0;
 		
@@ -30,6 +30,33 @@ public class Valueable {
 		
 		char gg = ' ';
         String hh = "";
+        
+        System.out.println(c);
+        System.out.println("soonhyoung");
+        System.out.println("soonghyoung kwon:" + c + " warm");
+        
+        System.out.println("한칸줄여쓰기");
+        System.out.println("\t한칸줄여쓰기");
+        
+        System.out.println("한줄바꿈");
+        System.out.println("\n한줄바꿈");
+        
+        System.out.println("한줄바꿈2");
+        System.out.println("\r한줄바꿈");
+        
+        System.out.println("\'나는생각한다\'");
+        System.out.println("소크라테스가 말했다 \"나는 존재한다.\"");
+        System.out.println("\\");
+        
+        if(a==1) {
+        	int aaa = 10;
+        	int bbb = aaa+ a;
+        	System.out.println("bbb: "+ bbb);
+        }else {
+        	
+        }
+       
+        
         
 	}
 
