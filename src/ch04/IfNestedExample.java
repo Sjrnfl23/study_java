@@ -4,7 +4,7 @@ public class IfNestedExample {
 
 	public static void main(String[] args) {
 		
-		int score =98;
+		int score =88;
 		String grade ="";
 		
 		if(score>=90) {
@@ -14,6 +14,7 @@ public class IfNestedExample {
 			else {
 				grade="A";
 			}
+			
 		}
 		else if(score >=80) {
 			if(score>=85) {
@@ -22,8 +23,27 @@ public class IfNestedExample {
 				grade="B";
 			}
 		}
+		else if(score >=70) {
+			if(score>=75) {
+				grade="B+";
+			}else {
+				grade="B";
+			}
+		}
+		else if(score >=60) {
+			if(score>=65) {
+				grade="B+";
+			}else {
+				grade="B";
+			}
+		}else {
+			grade ="F";
+		}
 		
-		System.out.println("학점용: "+grade);
+		
+		System.out.println("학점은: "+grade);
+		
+		
 	}
 
 }
