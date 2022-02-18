@@ -6,11 +6,16 @@ public class Point {
 	int pointUse=0;
 	int pointStack=0;
 	
-	public void usePoint(int point,int pointUse) {
-		
+	public int usePoint(int point,int pointUse) {
+		return point-pointUse;
 	}
-	public void stackPoint(int point,int pointStack) {
-		
+	public int stackPoint(int point,int pointStack) {
+		return point+pointStack;
 	}
+	public void viewPoint(int point) {
+		System.out.println(point);
+	}
+	
+	//책목록 어디에서 삿고 얼마 등등
 	
 }
