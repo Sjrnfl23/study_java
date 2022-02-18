@@ -1,4 +1,4 @@
-package ch06;
+package ch06.exc;
 
 import java.util.Date;
 

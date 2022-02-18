@@ -1,4 +1,4 @@
-package ch06;
+package ch06.exc;
 
 public class CarProgram {
 	public static void main(String[] args) {
