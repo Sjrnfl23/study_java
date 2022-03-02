@@ -9,6 +9,10 @@ public class StudentExample {
 		System.out.println(student.name);
 		System.out.println(student.ssn);
 		System.out.println(student.studentNo);
+		
+		Student student2= new Student("cris","22142");
+		
+		System.out.println(student2.studentNo);
 	}
 
 }

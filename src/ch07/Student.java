@@ -10,5 +10,8 @@ public class Student extends People{
 		this.studentNo=studentNo;
 		
 	}
+	public Student(String name,String ssn) {
+		super(name,ssn);
+	}
 
 }
