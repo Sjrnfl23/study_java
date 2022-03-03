@@ -1,11 +1,14 @@
 package com.urdomain.lecture.ch07;
 
-public class Dog extends Animal {
-	String kind;
-	public Dog() {
-		this.kind="포우류";
+public class Cat extends Animal{
+
+	public Cat() {
+		
 	}
+	
+	@Override
 	public void sound() {
 		System.out.println("야옹");
 	}
+	
 }
