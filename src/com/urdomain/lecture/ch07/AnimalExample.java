@@ -9,7 +9,7 @@ public class AnimalExample {
 		dog.sound();
 		cat.sound();
 		System.out.println("------");
-
+		
 	}
 
 }

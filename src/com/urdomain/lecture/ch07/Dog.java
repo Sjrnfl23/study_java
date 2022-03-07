@@ -6,6 +6,6 @@ public class Dog extends Animal {
 		this.kind="포우류";
 	}
 	public void sound() {
-		System.out.println("야옹");
+		System.out.println("멍멍");
 	}
 }
